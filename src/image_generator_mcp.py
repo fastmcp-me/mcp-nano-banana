@@ -58,8 +58,9 @@ async def generate_image(prompt: str) -> str:
     except Exception as e:
         logger.error(f"An error occurred during image generation: {e}")
         return json.dumps({"error": f"An error occurred: {str(e)}"})
+    
 
-if __name__ == "__main__":
+def main():
     # Get the API key from environment variables
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
@@ -69,4 +70,7 @@ if __name__ == "__main__":
     logger.info("Gemini API configured successfully.")
 
     logger.info("Starting MCP server via mcp.run()...")
-    mcp.run()
+    asyncio.run(mcp.run())
+
+if __name__ == "__main__":
+    main()

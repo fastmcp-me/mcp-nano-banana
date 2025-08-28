@@ -8,6 +8,8 @@ dependencies = [
     "python-dotenv>=1.0.1",
 ]
 
+[project.scripts]
+mcp-nano-banana = "image_generator_mcp:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
