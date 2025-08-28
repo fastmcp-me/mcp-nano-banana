@@ -1,4 +1,6 @@
-# MCP Image Generator
+# MCP Nano Banana
+
+[![PyPI Version](https://img.shields.io/pypi/v/mcp-nano-banana.svg)](https://pypi.org/project/mcp-nano-banana/)
 
 This project is an MCP (Model Context Protocol) server that generates images using the Google Gemini API.
 
