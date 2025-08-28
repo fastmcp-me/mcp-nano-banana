@@ -9,7 +9,7 @@ dependencies = [
 ]
 
 [project.scripts]
-mcp-nano-banana = "mcp-nano-banana.main:main"
+mcp-nano-banana = "mcp_nano_banana.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
