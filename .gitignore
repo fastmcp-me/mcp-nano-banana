@@ -4,4 +4,5 @@ venv
 build
 
 mcp_image_generator.egg-info
+mcp_nano_banana.egg-info
 __pycache__
