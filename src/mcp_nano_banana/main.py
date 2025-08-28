@@ -60,7 +60,7 @@ async def generate_image(prompt: str) -> str:
             payload = {
                 "key": IMGBB_API_KEY,
                 "image": image_data_base64,  # The Base64 string is the 'image' field
-                "name": f"{uuid.uuid4()}.png"   # Optional: specify a name for the file
+                "name": f"{uuid.uuid4()}"   # Optional: specify a name for the file
             }
             resp = requests.post(upload_url, data=payload, timeout=60) # Increased timeout for larger files
             resp.raise_for_status() # Raise an error for bad status codes (4xx or 5xx)
