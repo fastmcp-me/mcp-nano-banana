@@ -1,0 +1,6 @@
+vnev
+venv
+.env
+
+mcp_image_generator.egg-info
+__pycache__

@@ -36,7 +36,7 @@ This server is designed to be run as a subprocess by an MCP client or using the 
 To run the server manually for testing or integration, use the following command:
 
 ```bash
-mcp run --transport stdio image_generator_mcp.py:mcp
+mcp run --transport stdio src/image_generator_mcp.py:mcp
 ```
 
 The server will start and wait for a JSON-RPC request on its standard input.
