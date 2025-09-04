@@ -40,6 +40,8 @@ This project uses Python and its dependencies are defined in `pyproject.toml`. Y
 
 ```bash
 pip install .
+# Or
+uv sync
 ```
 
 This will install `mcp`, `google-generativeai`, and other required packages.
@@ -65,3 +67,33 @@ This server is designed to be run as a subprocess by an MCP client or using the 
 ```bash
 uvx --from git+https://github.com/GuilhermeAumo/mcp-nano-banana mcp-nano-banana
 ```
+
+
+## Publishing new pipy version
+To publish a new version of this package to PyPI:
+
+1. **Update the version**  
+   Edit the `version` field in `pyproject.toml` to the new version number.
+
+2. **Build the package**  
+   Run:
+   ```bash
+   uv build
+   ```
+   This will create `.tar.gz` and `.whl` files in the `dist/` directory.
+
+3. **Upload to PyPI**  
+   ```bash
+   uv publish
+   ```
+
+4. **Tag the release (optional but recommended)**  
+   ```bash
+   git tag v<new-version>
+   git push --tags
+   ```
+
+**Note:**  
+- You need a PyPI account and must be listed as a maintainer of the project.
+
+For more details, see the [Python Packaging User Guide](https://packaging.python.org/tutorials/packaging-projects/).
