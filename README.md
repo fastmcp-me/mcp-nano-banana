@@ -88,6 +88,8 @@ To publish a new version of this package to PyPI:
    ```
 
 4. **Tag the release (optional but recommended)**  
+  Commit the changes to github first, then:
+  
    ```bash
    git tag v<new-version>
    git push --tags
