@@ -1,3 +1,10 @@
+[![Add to Cursor](https://fastmcp.me/badges/cursor_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+[![Add to VS Code](https://fastmcp.me/badges/vscode_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+[![Add to Claude](https://fastmcp.me/badges/claude_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+[![Add to ChatGPT](https://fastmcp.me/badges/chatgpt_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+[![Add to Codex](https://fastmcp.me/badges/codex_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+[![Add to Gemini](https://fastmcp.me/badges/gemini_dark.svg)](https://fastmcp.me/MCP/Details/1149/nano-banana-gemini-image-generator)
+
 # MCP Nano Banana
 
 [![PyPI Version](https://img.shields.io/pypi/v/mcp-nano-banana.svg)](https://pypi.org/project/mcp-nano-banana/)
